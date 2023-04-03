@@ -1,0 +1,8 @@
+Lana
+18
+Psyduck,Eevee,Pikachu
+Vitamine;Pelerina;Scut:Vesta;Brad de craciun;Sabiuta:Bagheta magica;Pelerina;Scut
+Jessie
+41
+Bulbasaur,Jigglypuff,Vulpix
+Vesta;Scut;Sabiuta:Vitamine;Brad de craciun;Pelerina:Bagheta magica;Vesta;Scut

@@ -1,0 +1,904 @@
+Aventura 01
+Lupta tip: 1
+----------------------------------------
+1. Snorlax Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 62 (dodge), Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=5, cd=5}
+	b. Neutrel1 HP 10 
+-===========================================-
+2. Snorlax Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 62 Ability{dmg=4, stun=true, dodge=false, currentCd=5, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=4, cd=5}
+	b. Neutrel1 HP 6 stunned, 
+-===========================================-
+3. Snorlax Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel1 stunned -> Rezultat:
+	a. Snorlax HP 62 Ability{dmg=4, stun=true, dodge=false, currentCd=4, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=3, cd=5}
+	b. Neutrel1 HP 1 
+-===========================================-
+4. Snorlax Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 62 Ability{dmg=4, stun=true, dodge=false, currentCd=3, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=2, cd=5}
+	b. Neutrel1 HP -4 
+-===========================================-
+Blaine(Snorlax) castiga Arena invingand pe celalalt antrenor. Snorlax areacum + 1 la toate caracteristicile:
+HP 63, Attack 7, Special attack 0, Defense 7, Special Defense 5
+
+1. Jigglypuff Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=4} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Jigglypuff HP 44 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=4, cd=4}
+	b. Neutrel1 HP 7 stunned, 
+-===========================================-
+2. Jigglypuff Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} / Neutrel1 stunned -> Rezultat:
+	a. Jigglypuff HP 44 Ability{dmg=4, stun=true, dodge=false, currentCd=4, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=3, cd=4}
+	b. Neutrel1 HP 3 stunned, 
+-===========================================-
+3. Jigglypuff Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel1 stunned -> Rezultat:
+	a. Jigglypuff HP 44 Ability{dmg=4, stun=true, dodge=false, currentCd=3, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=2, cd=4}
+	b. Neutrel1 HP 0 
+-===========================================-
+Byron(Jigglypuff) castiga Arena invingand pe celalalt antrenor. Jigglypuff areacum + 1 la toate caracteristicile:
+HP 45, Attack 5, Special attack 0, Defense 5, Special Defense 6
+
+Aventura 01
+Lupta tip: 3
+----------------------------------------
+1. Snorlax Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Jigglypuff Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=4} -> Rezultat:
+	a. Snorlax HP 60 stunned, Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Jigglypuff HP 43 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=4, cd=4}
+-===========================================-
+2. Snorlax stunned / Jigglypuff Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} -> Rezultat:
+	a. Snorlax HP 56 stunned, Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Jigglypuff HP 43 Ability{dmg=4, stun=true, dodge=false, currentCd=4, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=3, cd=4}
+-===========================================-
+3. Snorlax stunned / Jigglypuff Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 56 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Jigglypuff HP 43 Ability{dmg=4, stun=true, dodge=false, currentCd=3, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=2, cd=4}
+-===========================================-
+4. Snorlax Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} / Jigglypuff Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 56 Ability{dmg=4, stun=true, dodge=false, currentCd=5, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Jigglypuff HP 39 stunned, Ability{dmg=4, stun=true, dodge=false, currentCd=2, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=1, cd=4}
+-===========================================-
+5. Snorlax Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Jigglypuff stunned -> Rezultat:
+	a. Snorlax HP 56 Ability{dmg=4, stun=true, dodge=false, currentCd=4, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Jigglypuff HP 37 Ability{dmg=4, stun=true, dodge=false, currentCd=1, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=4}
+-===========================================-
+6. Snorlax Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5} / Jigglypuff Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 56 (dodge), Ability{dmg=4, stun=true, dodge=false, currentCd=3, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=5, cd=5}
+	b. Jigglypuff HP 37 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=4}
+-===========================================-
+7. Snorlax Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Jigglypuff Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=4} -> Rezultat:
+	a. Snorlax HP 53 stunned, Ability{dmg=4, stun=true, dodge=false, currentCd=2, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=4, cd=5}
+	b. Jigglypuff HP 35 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=4, cd=4}
+-===========================================-
+8. Snorlax stunned / Jigglypuff Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 53 Ability{dmg=4, stun=true, dodge=false, currentCd=1, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=3, cd=5}
+	b. Jigglypuff HP 35 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=3, cd=4}
+-===========================================-
+9. Snorlax Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Jigglypuff Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} -> Rezultat:
+	a. Snorlax HP 49 stunned, Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=2, cd=5}
+	b. Jigglypuff HP 33 Ability{dmg=4, stun=true, dodge=false, currentCd=4, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=2, cd=4}
+-===========================================-
+10. Snorlax stunned / Jigglypuff Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 49 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=1, cd=5}
+	b. Jigglypuff HP 33 Ability{dmg=4, stun=true, dodge=false, currentCd=3, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=1, cd=4}
+-===========================================-
+11. Snorlax Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Jigglypuff Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 49 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Jigglypuff HP 31 Ability{dmg=4, stun=true, dodge=false, currentCd=2, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=4}
+-===========================================-
+12. Snorlax Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} / Jigglypuff Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=4} -> Rezultat:
+	a. Snorlax HP 46 stunned, Ability{dmg=4, stun=true, dodge=false, currentCd=5, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Jigglypuff HP 27 stunned, Ability{dmg=4, stun=true, dodge=false, currentCd=1, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=4, cd=4}
+-===========================================-
+13. Snorlax stunned / Jigglypuff stunned -> Rezultat:
+	a. Snorlax HP 46 Ability{dmg=4, stun=true, dodge=false, currentCd=4, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Jigglypuff HP 27 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=3, cd=4}
+-===========================================-
+14. Snorlax Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5} / Jigglypuff Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 46 (dodge), Ability{dmg=4, stun=true, dodge=false, currentCd=3, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=5, cd=5}
+	b. Jigglypuff HP 27 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=2, cd=4}
+-===========================================-
+15. Snorlax Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Jigglypuff Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} -> Rezultat:
+	a. Snorlax HP 42 stunned, Ability{dmg=4, stun=true, dodge=false, currentCd=2, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=4, cd=5}
+	b. Jigglypuff HP 25 Ability{dmg=4, stun=true, dodge=false, currentCd=4, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=1, cd=4}
+-===========================================-
+16. Snorlax stunned / Jigglypuff Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 42 Ability{dmg=4, stun=true, dodge=false, currentCd=1, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=3, cd=5}
+	b. Jigglypuff HP 25 Ability{dmg=4, stun=true, dodge=false, currentCd=3, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=4}
+-===========================================-
+17. Snorlax Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Jigglypuff Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 42 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=2, cd=5}
+	b. Jigglypuff HP 23 Ability{dmg=4, stun=true, dodge=false, currentCd=2, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=4}
+-===========================================-
+18. Snorlax Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} / Jigglypuff Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=4} -> Rezultat:
+	a. Snorlax HP 39 stunned, Ability{dmg=4, stun=true, dodge=false, currentCd=5, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=1, cd=5}
+	b. Jigglypuff HP 19 stunned, Ability{dmg=4, stun=true, dodge=false, currentCd=1, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=4, cd=4}
+-===========================================-
+19. Snorlax stunned / Jigglypuff stunned -> Rezultat:
+	a. Snorlax HP 39 Ability{dmg=4, stun=true, dodge=false, currentCd=4, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Jigglypuff HP 19 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=3, cd=4}
+-===========================================-
+20. Snorlax Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Jigglypuff Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} -> Rezultat:
+	a. Snorlax HP 35 stunned, Ability{dmg=4, stun=true, dodge=false, currentCd=3, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Jigglypuff HP 17 Ability{dmg=4, stun=true, dodge=false, currentCd=4, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=2, cd=4}
+-===========================================-
+21. Snorlax stunned / Jigglypuff Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 35 Ability{dmg=4, stun=true, dodge=false, currentCd=2, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Jigglypuff HP 17 Ability{dmg=4, stun=true, dodge=false, currentCd=3, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=1, cd=4}
+-===========================================-
+22. Snorlax Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Jigglypuff Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 35 Ability{dmg=4, stun=true, dodge=false, currentCd=1, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Jigglypuff HP 15 Ability{dmg=4, stun=true, dodge=false, currentCd=2, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=4}
+-===========================================-
+23. Snorlax Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5} / Jigglypuff Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=4} -> Rezultat:
+	a. Snorlax HP 35 (dodge), stunned, Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=5, cd=5}
+	b. Jigglypuff HP 15 Ability{dmg=4, stun=true, dodge=false, currentCd=1, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=4, cd=4}
+-===========================================-
+24. Snorlax Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} / Jigglypuff Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 35 Ability{dmg=4, stun=true, dodge=false, currentCd=5, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=4, cd=5}
+	b. Jigglypuff HP 11 stunned, Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=3, cd=4}
+-===========================================-
+25. Snorlax Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Jigglypuff stunned -> Rezultat:
+	a. Snorlax HP 35 Ability{dmg=4, stun=true, dodge=false, currentCd=4, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=3, cd=5}
+	b. Jigglypuff HP 9 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=2, cd=4}
+-===========================================-
+26. Snorlax Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Jigglypuff Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 35 Ability{dmg=4, stun=true, dodge=false, currentCd=3, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=2, cd=5}
+	b. Jigglypuff HP 7 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=1, cd=4}
+-===========================================-
+27. Snorlax Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Jigglypuff Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} -> Rezultat:
+	a. Snorlax HP 31 stunned, Ability{dmg=4, stun=true, dodge=false, currentCd=2, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=1, cd=5}
+	b. Jigglypuff HP 5 Ability{dmg=4, stun=true, dodge=false, currentCd=4, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=4}
+-===========================================-
+28. Snorlax stunned / Jigglypuff Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 31 Ability{dmg=4, stun=true, dodge=false, currentCd=1, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Jigglypuff HP 5 Ability{dmg=4, stun=true, dodge=false, currentCd=3, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=4}
+-===========================================-
+29. Snorlax Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5} / Jigglypuff Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=4} -> Rezultat:
+	a. Snorlax HP 31 (dodge), stunned, Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=5, cd=5}
+	b. Jigglypuff HP 5 Ability{dmg=4, stun=true, dodge=false, currentCd=2, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=4, cd=4}
+-===========================================-
+30. Snorlax Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} / Jigglypuff Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 31 Ability{dmg=4, stun=true, dodge=false, currentCd=5, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=4, cd=5}
+	b. Jigglypuff HP 1 stunned, Ability{dmg=4, stun=true, dodge=false, currentCd=1, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=3, cd=4}
+-===========================================-
+31. Snorlax Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Jigglypuff stunned -> Rezultat:
+	a. Snorlax HP 31 Ability{dmg=4, stun=true, dodge=false, currentCd=4, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=3, cd=5}
+	b. Jigglypuff HP -1 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=4} Ability{dmg=3, stun=true, dodge=false, currentCd=2, cd=4}
+-===========================================-
+Blaine(Snorlax) castiga Arena invingand pe celalalt antrenor. Snorlax areacum + 1 la toate caracteristicile:
+HP 64, Attack 8, Special attack 0, Defense 8, Special Defense 6
+
+Aventura 11
+Lupta tip: 1
+----------------------------------------
+1. Vulpix Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 46 (dodge), Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=7, cd=7}
+	b. Neutrel1 HP 8 
+-===========================================-
+2. Vulpix Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 45 Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=6, cd=7}
+	b. Neutrel1 HP 4 
+-===========================================-
+3. Vulpix Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 44 Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=5, cd=7}
+	b. Neutrel1 HP 0 
+-===========================================-
+Blaine(Vulpix) castiga Arena invingand pe celalalt antrenor. Vulpix areacum + 1 la toate caracteristicile:
+HP 47, Attack 6, Special attack 0, Defense 3, Special Defense 5
+
+1. Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 41 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+	b. Neutrel1 HP 5 
+-===========================================-
+2. Meowth Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 41 Ability{dmg=5, stun=false, dodge=true, currentCd=3, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+	b. Neutrel1 HP 3 
+-===========================================-
+3. Meowth Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 41 Ability{dmg=5, stun=false, dodge=true, currentCd=2, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+	b. Neutrel1 HP 1 
+-===========================================-
+4. Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 41 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=1, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+	b. Neutrel1 HP 0 
+-===========================================-
+Byron(Meowth) castiga Arena invingand pe celalalt antrenor. Meowth areacum + 1 la toate caracteristicile:
+HP 42, Attack 4, Special attack 0, Defense 5, Special Defense 3
+
+Aventura 11
+Lupta tip: 1
+----------------------------------------
+1. Vulpix Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 47 (dodge), Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=7, cd=7}
+	b. Neutrel1 HP 8 
+-===========================================-
+2. Vulpix Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 47 Ability{dmg=8, stun=true, dodge=false, currentCd=6, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=6, cd=7}
+	b. Neutrel1 HP 0 stunned, 
+-===========================================-
+Blaine(Vulpix) castiga Arena invingand pe celalalt antrenor. Vulpix areacum + 1 la toate caracteristicile:
+HP 48, Attack 7, Special attack 0, Defense 4, Special Defense 6
+
+1. Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 42 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+	b. Neutrel1 HP 9 
+-===========================================-
+2. Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 42 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=2, cd=3}
+	b. Neutrel1 HP 4 
+-===========================================-
+3. Meowth Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 42 Ability{dmg=5, stun=false, dodge=true, currentCd=3, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=1, cd=3}
+	b. Neutrel1 HP 1 
+-===========================================-
+4. Meowth Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 42 Ability{dmg=5, stun=false, dodge=true, currentCd=2, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+	b. Neutrel1 HP -2 
+-===========================================-
+Byron(Meowth) castiga Arena invingand pe celalalt antrenor. Meowth areacum + 1 la toate caracteristicile:
+HP 43, Attack 5, Special attack 0, Defense 6, Special Defense 4
+
+Aventura 11
+Lupta tip: 1
+----------------------------------------
+1. Vulpix Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 48 (dodge), Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=7, cd=7}
+	b. Neutrel1 HP 8 
+-===========================================-
+2. Vulpix Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 48 Ability{dmg=8, stun=true, dodge=false, currentCd=6, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=6, cd=7}
+	b. Neutrel1 HP 0 stunned, 
+-===========================================-
+Blaine(Vulpix) castiga Arena invingand pe celalalt antrenor. Vulpix areacum + 1 la toate caracteristicile:
+HP 49, Attack 8, Special attack 0, Defense 5, Special Defense 7
+
+1. Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 43 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+	b. Neutrel1 HP 5 
+-===========================================-
+2. Meowth Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 43 Ability{dmg=5, stun=false, dodge=true, currentCd=3, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+	b. Neutrel1 HP 1 
+-===========================================-
+3. Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 43 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=2, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+	b. Neutrel1 HP 0 
+-===========================================-
+Byron(Meowth) castiga Arena invingand pe celalalt antrenor. Meowth areacum + 1 la toate caracteristicile:
+HP 44, Attack 6, Special attack 0, Defense 7, Special Defense 5
+
+Aventura 11
+Lupta tip: 2
+----------------------------------------
+1. Vulpix Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 49 Ability{dmg=8, stun=true, dodge=false, currentCd=6, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Neutrel2 HP 12 stunned, 
+-===========================================-
+2. Vulpix Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 stunned -> Rezultat:
+	a. Vulpix HP 49 Ability{dmg=8, stun=true, dodge=false, currentCd=5, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Neutrel2 HP 5 
+-===========================================-
+3. Vulpix Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 49 Ability{dmg=8, stun=true, dodge=false, currentCd=4, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Neutrel2 HP -2 
+-===========================================-
+Blaine(Vulpix) castiga Arena invingand pe celalalt antrenor. Vulpix areacum + 1 la toate caracteristicile:
+HP 50, Attack 9, Special attack 0, Defense 6, Special Defense 8
+
+1. Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 44 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+	b. Neutrel2 HP 19 
+-===========================================-
+2. Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 44 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=2, cd=3}
+	b. Neutrel2 HP 14 
+-===========================================-
+3. Meowth Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 44 Ability{dmg=5, stun=false, dodge=true, currentCd=3, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=1, cd=3}
+	b. Neutrel2 HP 9 
+-===========================================-
+4. Meowth Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 44 Ability{dmg=5, stun=false, dodge=true, currentCd=2, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+	b. Neutrel2 HP 4 
+-===========================================-
+5. Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 44 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=1, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+	b. Neutrel2 HP 3 
+-===========================================-
+6. Meowth Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 44 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=2, cd=3}
+	b. Neutrel2 HP -2 
+-===========================================-
+Byron(Meowth) castiga Arena invingand pe celalalt antrenor. Meowth areacum + 1 la toate caracteristicile:
+HP 45, Attack 7, Special attack 0, Defense 8, Special Defense 6
+
+Aventura 11
+Lupta tip: 2
+----------------------------------------
+1. Vulpix Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 50 Ability{dmg=8, stun=true, dodge=false, currentCd=6, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Neutrel2 HP 12 stunned, 
+-===========================================-
+2. Vulpix Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7} / Neutrel2 stunned -> Rezultat:
+	a. Vulpix HP 50 (dodge), Ability{dmg=8, stun=true, dodge=false, currentCd=5, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=7, cd=7}
+	b. Neutrel2 HP 10 
+-===========================================-
+3. Vulpix Ability{dmg=9, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 50 Ability{dmg=8, stun=true, dodge=false, currentCd=4, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=6, cd=7}
+	b. Neutrel2 HP 2 
+-===========================================-
+4. Vulpix Ability{dmg=9, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 50 Ability{dmg=8, stun=true, dodge=false, currentCd=3, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=5, cd=7}
+	b. Neutrel2 HP -6 
+-===========================================-
+Blaine(Vulpix) castiga Arena invingand pe celalalt antrenor. Vulpix areacum + 1 la toate caracteristicile:
+HP 51, Attack 10, Special attack 0, Defense 7, Special Defense 9
+
+1. Meowth Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 45 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+	b. Neutrel2 HP 14 
+-===========================================-
+2. Meowth Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 45 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+	b. Neutrel2 HP 8 
+-===========================================-
+3. Meowth Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 45 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+	b. Neutrel2 HP 2 
+-===========================================-
+4. Meowth Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 45 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+	b. Neutrel2 HP -4 
+-===========================================-
+Byron(Meowth) castiga Arena invingand pe celalalt antrenor. Meowth areacum + 1 la toate caracteristicile:
+HP 46, Attack 8, Special attack 0, Defense 9, Special Defense 7
+
+Aventura 11
+Lupta tip: 1
+----------------------------------------
+1. Vulpix Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 51 (dodge), Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=7, cd=7}
+	b. Neutrel1 HP 8 
+-===========================================-
+2. Vulpix Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 51 Ability{dmg=8, stun=true, dodge=false, currentCd=6, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=6, cd=7}
+	b. Neutrel1 HP 0 stunned, 
+-===========================================-
+Blaine(Vulpix) castiga Arena invingand pe celalalt antrenor. Vulpix areacum + 1 la toate caracteristicile:
+HP 52, Attack 11, Special attack 0, Defense 8, Special Defense 10
+
+1. Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 46 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+	b. Neutrel1 HP 5 
+-===========================================-
+2. Meowth Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 46 Ability{dmg=5, stun=false, dodge=true, currentCd=3, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+	b. Neutrel1 HP -2 
+-===========================================-
+Byron(Meowth) castiga Arena invingand pe celalalt antrenor. Meowth areacum + 1 la toate caracteristicile:
+HP 47, Attack 9, Special attack 0, Defense 10, Special Defense 8
+
+Aventura 11
+Lupta tip: 2
+----------------------------------------
+1. Vulpix Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 52 Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Neutrel2 HP 10 
+-===========================================-
+2. Vulpix Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 52 Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Neutrel2 HP 0 
+-===========================================-
+Blaine(Vulpix) castiga Arena invingand pe celalalt antrenor. Vulpix areacum + 1 la toate caracteristicile:
+HP 53, Attack 12, Special attack 0, Defense 9, Special Defense 11
+
+1. Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 47 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+	b. Neutrel2 HP 19 
+-===========================================-
+2. Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 47 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=2, cd=3}
+	b. Neutrel2 HP 14 
+-===========================================-
+3. Meowth Ability{dmg=9, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 47 Ability{dmg=5, stun=false, dodge=true, currentCd=3, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=1, cd=3}
+	b. Neutrel2 HP 6 
+-===========================================-
+4. Meowth Ability{dmg=9, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Meowth HP 47 Ability{dmg=5, stun=false, dodge=true, currentCd=2, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+	b. Neutrel2 HP -2 
+-===========================================-
+Byron(Meowth) castiga Arena invingand pe celalalt antrenor. Meowth areacum + 1 la toate caracteristicile:
+HP 48, Attack 10, Special attack 0, Defense 11, Special Defense 9
+
+Aventura 11
+Lupta tip: 3
+----------------------------------------
+1. Vulpix Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} / Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} -> Rezultat:
+	a. Vulpix HP 48 Ability{dmg=8, stun=true, dodge=false, currentCd=6, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Meowth HP 48 (dodge), stunned, Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+2. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} -> Rezultat:
+	a. Vulpix HP 47 Ability{dmg=8, stun=true, dodge=false, currentCd=5, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Meowth HP 48 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=3, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+-===========================================-
+3. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 46 Ability{dmg=8, stun=true, dodge=false, currentCd=4, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Meowth HP 47 Ability{dmg=5, stun=false, dodge=true, currentCd=2, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=2, cd=3}
+-===========================================-
+4. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 45 Ability{dmg=8, stun=true, dodge=false, currentCd=3, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Meowth HP 46 Ability{dmg=5, stun=false, dodge=true, currentCd=1, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=1, cd=3}
+-===========================================-
+5. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 44 Ability{dmg=8, stun=true, dodge=false, currentCd=2, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Meowth HP 45 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+6. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} -> Rezultat:
+	a. Vulpix HP 39 Ability{dmg=8, stun=true, dodge=false, currentCd=1, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Meowth HP 45 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+7. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 38 Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Meowth HP 44 Ability{dmg=5, stun=false, dodge=true, currentCd=3, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+8. Vulpix Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7} / Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} -> Rezultat:
+	a. Vulpix HP 38 (dodge), Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=7, cd=7}
+	b. Meowth HP 44 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=2, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+-===========================================-
+9. Vulpix Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 37 Ability{dmg=8, stun=true, dodge=false, currentCd=6, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=6, cd=7}
+	b. Meowth HP 36 stunned, Ability{dmg=5, stun=false, dodge=true, currentCd=1, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=2, cd=3}
+-===========================================-
+10. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth stunned -> Rezultat:
+	a. Vulpix HP 37 Ability{dmg=8, stun=true, dodge=false, currentCd=5, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=5, cd=7}
+	b. Meowth HP 35 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=1, cd=3}
+-===========================================-
+11. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} -> Rezultat:
+	a. Vulpix HP 32 Ability{dmg=8, stun=true, dodge=false, currentCd=4, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=4, cd=7}
+	b. Meowth HP 35 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+12. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 31 Ability{dmg=8, stun=true, dodge=false, currentCd=3, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=3, cd=7}
+	b. Meowth HP 34 Ability{dmg=5, stun=false, dodge=true, currentCd=3, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+13. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 30 Ability{dmg=8, stun=true, dodge=false, currentCd=2, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=2, cd=7}
+	b. Meowth HP 33 Ability{dmg=5, stun=false, dodge=true, currentCd=2, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+14. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} -> Rezultat:
+	a. Vulpix HP 29 Ability{dmg=8, stun=true, dodge=false, currentCd=1, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=1, cd=7}
+	b. Meowth HP 33 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=1, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+-===========================================-
+15. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 28 Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Meowth HP 32 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=2, cd=3}
+-===========================================-
+16. Vulpix Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7} / Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} -> Rezultat:
+	a. Vulpix HP 28 (dodge), Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=7, cd=7}
+	b. Meowth HP 32 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=1, cd=3}
+-===========================================-
+17. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 27 Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=6, cd=7}
+	b. Meowth HP 31 Ability{dmg=5, stun=false, dodge=true, currentCd=3, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+18. Vulpix Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} / Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} -> Rezultat:
+	a. Vulpix HP 26 Ability{dmg=8, stun=true, dodge=false, currentCd=6, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=5, cd=7}
+	b. Meowth HP 31 (dodge), stunned, Ability{dmg=5, stun=false, dodge=true, currentCd=2, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+-===========================================-
+19. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 25 Ability{dmg=8, stun=true, dodge=false, currentCd=5, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=4, cd=7}
+	b. Meowth HP 30 Ability{dmg=5, stun=false, dodge=true, currentCd=1, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=2, cd=3}
+-===========================================-
+20. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 24 Ability{dmg=8, stun=true, dodge=false, currentCd=4, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=3, cd=7}
+	b. Meowth HP 29 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=1, cd=3}
+-===========================================-
+21. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} -> Rezultat:
+	a. Vulpix HP 19 Ability{dmg=8, stun=true, dodge=false, currentCd=3, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=2, cd=7}
+	b. Meowth HP 29 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+22. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} -> Rezultat:
+	a. Vulpix HP 18 Ability{dmg=8, stun=true, dodge=false, currentCd=2, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=1, cd=7}
+	b. Meowth HP 29 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=3, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+-===========================================-
+23. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 17 Ability{dmg=8, stun=true, dodge=false, currentCd=1, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Meowth HP 28 Ability{dmg=5, stun=false, dodge=true, currentCd=2, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=2, cd=3}
+-===========================================-
+24. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 16 Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Meowth HP 27 Ability{dmg=5, stun=false, dodge=true, currentCd=1, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=1, cd=3}
+-===========================================-
+25. Vulpix Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 15 Ability{dmg=8, stun=true, dodge=false, currentCd=6, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Meowth HP 19 stunned, Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+26. Vulpix Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7} / Meowth stunned -> Rezultat:
+	a. Vulpix HP 15 (dodge), Ability{dmg=8, stun=true, dodge=false, currentCd=5, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=7, cd=7}
+	b. Meowth HP 17 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+27. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 14 Ability{dmg=8, stun=true, dodge=false, currentCd=4, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=6, cd=7}
+	b. Meowth HP 16 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+28. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 13 Ability{dmg=8, stun=true, dodge=false, currentCd=3, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=5, cd=7}
+	b. Meowth HP 15 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+29. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 12 Ability{dmg=8, stun=true, dodge=false, currentCd=2, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=4, cd=7}
+	b. Meowth HP 14 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+30. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} -> Rezultat:
+	a. Vulpix HP 11 Ability{dmg=8, stun=true, dodge=false, currentCd=1, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=3, cd=7}
+	b. Meowth HP 14 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+-===========================================-
+31. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} -> Rezultat:
+	a. Vulpix HP 6 Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=2, cd=7}
+	b. Meowth HP 14 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=2, cd=3}
+-===========================================-
+32. Vulpix Ability{dmg=8, stun=true, dodge=false, currentCd=0, cd=6} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 5 Ability{dmg=8, stun=true, dodge=false, currentCd=6, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=1, cd=7}
+	b. Meowth HP 6 stunned, Ability{dmg=5, stun=false, dodge=true, currentCd=3, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=1, cd=3}
+-===========================================-
+33. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth stunned -> Rezultat:
+	a. Vulpix HP 5 Ability{dmg=8, stun=true, dodge=false, currentCd=5, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Meowth HP 5 Ability{dmg=5, stun=false, dodge=true, currentCd=2, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+34. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} -> Rezultat:
+	a. Vulpix HP 4 Ability{dmg=8, stun=true, dodge=false, currentCd=4, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Meowth HP 5 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=1, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+-===========================================-
+35. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=10, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Vulpix HP 3 Ability{dmg=8, stun=true, dodge=false, currentCd=3, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Meowth HP 4 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=2, cd=3}
+-===========================================-
+36. Vulpix Ability{dmg=12, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} -> Rezultat:
+	a. Vulpix HP -2 Ability{dmg=8, stun=true, dodge=false, currentCd=2, cd=6} Ability{dmg=2, stun=false, dodge=true, currentCd=0, cd=7}
+	b. Meowth HP 4 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=1, cd=3}
+-===========================================-
+Byron(Meowth) castiga Arena invingand pe celalalt antrenor. Meowth areacum + 1 la toate caracteristicile:
+HP 49, Attack 11, Special attack 0, Defense 12, Special Defense 10
+
+Aventura 21
+Lupta tip: 2
+----------------------------------------
+1. Eevee Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 39 Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Neutrel2 HP 17 
+-===========================================-
+2. Eevee Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 39 Ability{dmg=5, stun=false, dodge=false, currentCd=3, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Neutrel2 HP 12 
+-===========================================-
+3. Eevee Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 39 Ability{dmg=5, stun=false, dodge=false, currentCd=2, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=3, cd=3}
+	b. Neutrel2 HP 9 stunned, 
+-===========================================-
+4. Eevee Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 stunned -> Rezultat:
+	a. Eevee HP 39 Ability{dmg=5, stun=false, dodge=false, currentCd=1, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=2, cd=3}
+	b. Neutrel2 HP 6 
+-===========================================-
+5. Eevee Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 39 Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=1, cd=3}
+	b. Neutrel2 HP 3 
+-===========================================-
+6. Eevee Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 39 Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Neutrel2 HP 0 
+-===========================================-
+Blaine(Eevee) castiga Arena invingand pe celalalt antrenor. Eevee areacum + 1 la toate caracteristicile:
+HP 40, Attack 0, Special attack 5, Defense 6, Special Defense 9
+
+1. Bulbasaur Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Bulbasaur HP 41 Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3}
+	b. Neutrel2 HP 16 
+-===========================================-
+2. Bulbasaur Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Bulbasaur HP 40 Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=3, cd=3}
+	b. Neutrel2 HP 11 
+-===========================================-
+3. Bulbasaur Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Bulbasaur HP 39 Ability{dmg=6, stun=false, dodge=false, currentCd=4, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=2, cd=3}
+	b. Neutrel2 HP 5 
+-===========================================-
+4. Bulbasaur Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Bulbasaur HP 38 Ability{dmg=6, stun=false, dodge=false, currentCd=3, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=1, cd=3}
+	b. Neutrel2 HP 1 
+-===========================================-
+5. Bulbasaur Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Bulbasaur HP 37 Ability{dmg=6, stun=false, dodge=false, currentCd=2, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3}
+	b. Neutrel2 HP -3 
+-===========================================-
+Byron(Bulbasaur) castiga Arena invingand pe celalalt antrenor. Bulbasaur areacum + 1 la toate caracteristicile:
+HP 43, Attack 0, Special attack 6, Defense 4, Special Defense 2
+
+Aventura 21
+Lupta tip: 1
+----------------------------------------
+1. Eevee Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 40 Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Neutrel1 HP 6 
+-===========================================-
+2. Eevee Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 40 Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=3, cd=3}
+	b. Neutrel1 HP 3 stunned, 
+-===========================================-
+3. Eevee Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} / Neutrel1 stunned -> Rezultat:
+	a. Eevee HP 40 Ability{dmg=5, stun=false, dodge=false, currentCd=3, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=2, cd=3}
+	b. Neutrel1 HP -2 
+-===========================================-
+Blaine(Eevee) castiga Arena invingand pe celalalt antrenor. Eevee areacum + 1 la toate caracteristicile:
+HP 41, Attack 0, Special attack 6, Defense 7, Special Defense 10
+
+1. Bulbasaur Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Bulbasaur HP 43 Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=3, cd=3}
+	b. Neutrel1 HP 5 
+-===========================================-
+2. Bulbasaur Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel1 Ability{dmg=3, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Bulbasaur HP 43 Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=2, cd=3}
+	b. Neutrel1 HP 0 
+-===========================================-
+Byron(Bulbasaur) castiga Arena invingand pe celalalt antrenor. Bulbasaur areacum + 1 la toate caracteristicile:
+HP 44, Attack 0, Special attack 7, Defense 5, Special Defense 3
+
+Aventura 21
+Lupta tip: 2
+----------------------------------------
+1. Eevee Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 41 Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=3, cd=3}
+	b. Neutrel2 HP 17 stunned, 
+-===========================================-
+2. Eevee Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} / Neutrel2 stunned -> Rezultat:
+	a. Eevee HP 41 Ability{dmg=5, stun=false, dodge=false, currentCd=3, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=2, cd=3}
+	b. Neutrel2 HP 12 
+-===========================================-
+3. Eevee Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 41 Ability{dmg=5, stun=false, dodge=false, currentCd=2, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=1, cd=3}
+	b. Neutrel2 HP 7 
+-===========================================-
+4. Eevee Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 41 Ability{dmg=5, stun=false, dodge=false, currentCd=1, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Neutrel2 HP 2 
+-===========================================-
+5. Eevee Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 41 Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=3, cd=3}
+	b. Neutrel2 HP -1 stunned, 
+-===========================================-
+Blaine(Eevee) castiga Arena invingand pe celalalt antrenor. Eevee areacum + 1 la toate caracteristicile:
+HP 42, Attack 0, Special attack 7, Defense 8, Special Defense 11
+
+1. Bulbasaur Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Bulbasaur HP 44 Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=3, cd=3}
+	b. Neutrel2 HP 15 
+-===========================================-
+2. Bulbasaur Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Bulbasaur HP 44 Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=2, cd=3}
+	b. Neutrel2 HP 9 
+-===========================================-
+3. Bulbasaur Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Bulbasaur HP 44 Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=1, cd=3}
+	b. Neutrel2 HP 3 
+-===========================================-
+4. Bulbasaur Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Bulbasaur HP 44 Ability{dmg=6, stun=false, dodge=false, currentCd=4, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3}
+	b. Neutrel2 HP -3 
+-===========================================-
+Byron(Bulbasaur) castiga Arena invingand pe celalalt antrenor. Bulbasaur areacum + 1 la toate caracteristicile:
+HP 45, Attack 0, Special attack 8, Defense 6, Special Defense 4
+
+Aventura 21
+Lupta tip: 2
+----------------------------------------
+1. Eevee Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 42 Ability{dmg=5, stun=false, dodge=false, currentCd=3, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Neutrel2 HP 15 
+-===========================================-
+2. Eevee Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 42 Ability{dmg=5, stun=false, dodge=false, currentCd=2, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=3, cd=3}
+	b. Neutrel2 HP 12 stunned, 
+-===========================================-
+3. Eevee Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 stunned -> Rezultat:
+	a. Eevee HP 42 Ability{dmg=5, stun=false, dodge=false, currentCd=1, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=2, cd=3}
+	b. Neutrel2 HP 6 
+-===========================================-
+4. Eevee Ability{dmg=7, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 42 Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=1, cd=3}
+	b. Neutrel2 HP 0 
+-===========================================-
+Blaine(Eevee) castiga Arena invingand pe celalalt antrenor. Eevee areacum + 1 la toate caracteristicile:
+HP 43, Attack 0, Special attack 8, Defense 9, Special Defense 12
+
+1. Bulbasaur Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Bulbasaur HP 45 Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=3, cd=3}
+	b. Neutrel2 HP 15 
+-===========================================-
+2. Bulbasaur Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Bulbasaur HP 45 Ability{dmg=6, stun=false, dodge=false, currentCd=4, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=2, cd=3}
+	b. Neutrel2 HP 9 
+-===========================================-
+3. Bulbasaur Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Bulbasaur HP 45 Ability{dmg=6, stun=false, dodge=false, currentCd=3, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=1, cd=3}
+	b. Neutrel2 HP 2 
+-===========================================-
+4. Bulbasaur Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Neutrel2 Ability{dmg=4, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Bulbasaur HP 45 Ability{dmg=6, stun=false, dodge=false, currentCd=2, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3}
+	b. Neutrel2 HP -5 
+-===========================================-
+Byron(Bulbasaur) castiga Arena invingand pe celalalt antrenor. Bulbasaur areacum + 1 la toate caracteristicile:
+HP 46, Attack 0, Special attack 9, Defense 7, Special Defense 5
+
+Aventura 21
+Lupta tip: 3
+----------------------------------------
+1. Eevee Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} / Bulbasaur Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} -> Rezultat:
+	a. Eevee HP 37 Ability{dmg=5, stun=false, dodge=false, currentCd=3, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Bulbasaur HP 41 Ability{dmg=6, stun=false, dodge=false, currentCd=4, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3}
+-===========================================-
+2. Eevee Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Bulbasaur Ability{dmg=9, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 37 Ability{dmg=5, stun=false, dodge=false, currentCd=2, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Bulbasaur HP 38 Ability{dmg=6, stun=false, dodge=false, currentCd=3, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3}
+-===========================================-
+3. Eevee Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Bulbasaur Ability{dmg=9, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 37 Ability{dmg=5, stun=false, dodge=false, currentCd=1, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Bulbasaur HP 35 Ability{dmg=6, stun=false, dodge=false, currentCd=2, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3}
+-===========================================-
+4. Eevee Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Bulbasaur Ability{dmg=9, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 37 Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Bulbasaur HP 32 Ability{dmg=6, stun=false, dodge=false, currentCd=1, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3}
+-===========================================-
+5. Eevee Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} / Bulbasaur Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} -> Rezultat:
+	a. Eevee HP 32 Ability{dmg=5, stun=false, dodge=false, currentCd=3, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Bulbasaur HP 27 Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=3, cd=3}
+-===========================================-
+6. Eevee Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3} / Bulbasaur Ability{dmg=9, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 32 Ability{dmg=5, stun=false, dodge=false, currentCd=2, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=3, cd=3}
+	b. Bulbasaur HP 24 stunned, Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=2, cd=3}
+-===========================================-
+7. Eevee Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Bulbasaur stunned -> Rezultat:
+	a. Eevee HP 32 Ability{dmg=5, stun=false, dodge=false, currentCd=1, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=2, cd=3}
+	b. Bulbasaur HP 21 Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=1, cd=3}
+-===========================================-
+8. Eevee Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Bulbasaur Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} -> Rezultat:
+	a. Eevee HP 26 Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=1, cd=3}
+	b. Bulbasaur HP 18 Ability{dmg=6, stun=false, dodge=false, currentCd=4, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3}
+-===========================================-
+9. Eevee Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} / Bulbasaur Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} -> Rezultat:
+	a. Eevee HP 21 Ability{dmg=5, stun=false, dodge=false, currentCd=3, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Bulbasaur HP 13 Ability{dmg=6, stun=false, dodge=false, currentCd=3, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=3, cd=3}
+-===========================================-
+10. Eevee Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Bulbasaur Ability{dmg=9, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 21 Ability{dmg=5, stun=false, dodge=false, currentCd=2, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Bulbasaur HP 10 Ability{dmg=6, stun=false, dodge=false, currentCd=2, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=2, cd=3}
+-===========================================-
+11. Eevee Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Bulbasaur Ability{dmg=9, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 21 Ability{dmg=5, stun=false, dodge=false, currentCd=1, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Bulbasaur HP 7 Ability{dmg=6, stun=false, dodge=false, currentCd=1, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=1, cd=3}
+-===========================================-
+12. Eevee Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Bulbasaur Ability{dmg=9, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 21 Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Bulbasaur HP 4 Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3}
+-===========================================-
+13. Eevee Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Bulbasaur Ability{dmg=6, stun=false, dodge=false, currentCd=0, cd=4} -> Rezultat:
+	a. Eevee HP 15 Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Bulbasaur HP 1 Ability{dmg=6, stun=false, dodge=false, currentCd=4, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3}
+-===========================================-
+14. Eevee Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3} / Bulbasaur Ability{dmg=9, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Eevee HP 15 Ability{dmg=5, stun=false, dodge=false, currentCd=3, cd=3} Ability{dmg=3, stun=true, dodge=false, currentCd=0, cd=3}
+	b. Bulbasaur HP -4 Ability{dmg=6, stun=false, dodge=false, currentCd=3, cd=4} Ability{dmg=5, stun=false, dodge=false, currentCd=0, cd=3}
+-===========================================-
+Blaine(Eevee) castiga Arena invingand pe celalalt antrenor. Eevee areacum + 1 la toate caracteristicile:
+HP 44, Attack 0, Special attack 9, Defense 10, Special Defense 13
+
+Aventura 31
+Lupta tip: 3
+----------------------------------------
+1. Snorlax Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} / Meowth Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 61 Ability{dmg=4, stun=true, dodge=false, currentCd=5, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Meowth HP 45 stunned, Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+2. Snorlax Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5} / Meowth stunned -> Rezultat:
+	a. Snorlax HP 61 (dodge), Ability{dmg=4, stun=true, dodge=false, currentCd=4, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=5, cd=5}
+	b. Meowth HP 45 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+3. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} -> Rezultat:
+	a. Snorlax HP 60 Ability{dmg=4, stun=true, dodge=false, currentCd=3, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=4, cd=5}
+	b. Meowth HP 45 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+-===========================================-
+4. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} -> Rezultat:
+	a. Snorlax HP 55 Ability{dmg=4, stun=true, dodge=false, currentCd=2, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=3, cd=5}
+	b. Meowth HP 45 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=2, cd=3}
+-===========================================-
+5. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 52 Ability{dmg=4, stun=true, dodge=false, currentCd=1, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=2, cd=5}
+	b. Meowth HP 45 Ability{dmg=5, stun=false, dodge=true, currentCd=3, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=1, cd=3}
+-===========================================-
+6. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 49 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=1, cd=5}
+	b. Meowth HP 45 Ability{dmg=5, stun=false, dodge=true, currentCd=2, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+7. Snorlax Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} / Meowth Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 46 Ability{dmg=4, stun=true, dodge=false, currentCd=5, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Meowth HP 41 stunned, Ability{dmg=5, stun=false, dodge=true, currentCd=1, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+8. Snorlax Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5} / Meowth stunned -> Rezultat:
+	a. Snorlax HP 46 (dodge), Ability{dmg=4, stun=true, dodge=false, currentCd=4, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=5, cd=5}
+	b. Meowth HP 41 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+9. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} -> Rezultat:
+	a. Snorlax HP 41 Ability{dmg=4, stun=true, dodge=false, currentCd=3, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=4, cd=5}
+	b. Meowth HP 41 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+10. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 38 Ability{dmg=4, stun=true, dodge=false, currentCd=2, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=3, cd=5}
+	b. Meowth HP 41 Ability{dmg=5, stun=false, dodge=true, currentCd=3, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+11. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} -> Rezultat:
+	a. Snorlax HP 37 Ability{dmg=4, stun=true, dodge=false, currentCd=1, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=2, cd=5}
+	b. Meowth HP 41 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=2, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+-===========================================-
+12. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 34 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=1, cd=5}
+	b. Meowth HP 41 Ability{dmg=5, stun=false, dodge=true, currentCd=1, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=2, cd=3}
+-===========================================-
+13. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 31 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Meowth HP 41 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=1, cd=3}
+-===========================================-
+14. Snorlax Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} / Meowth Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 28 Ability{dmg=4, stun=true, dodge=false, currentCd=5, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Meowth HP 37 stunned, Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+15. Snorlax Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5} / Meowth stunned -> Rezultat:
+	a. Snorlax HP 28 (dodge), Ability{dmg=4, stun=true, dodge=false, currentCd=4, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=5, cd=5}
+	b. Meowth HP 37 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+16. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} -> Rezultat:
+	a. Snorlax HP 27 Ability{dmg=4, stun=true, dodge=false, currentCd=3, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=4, cd=5}
+	b. Meowth HP 37 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+-===========================================-
+17. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 24 Ability{dmg=4, stun=true, dodge=false, currentCd=2, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=3, cd=5}
+	b. Meowth HP 37 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=2, cd=3}
+-===========================================-
+18. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} -> Rezultat:
+	a. Snorlax HP 19 Ability{dmg=4, stun=true, dodge=false, currentCd=1, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=2, cd=5}
+	b. Meowth HP 37 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=1, cd=3}
+-===========================================-
+19. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 16 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=1, cd=5}
+	b. Meowth HP 37 Ability{dmg=5, stun=false, dodge=true, currentCd=3, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+20. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3} -> Rezultat:
+	a. Snorlax HP 15 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Meowth HP 37 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=2, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=3, cd=3}
+-===========================================-
+21. Snorlax Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5} / Meowth Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 15 (dodge), Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=5, cd=5}
+	b. Meowth HP 37 Ability{dmg=5, stun=false, dodge=true, currentCd=1, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=2, cd=3}
+-===========================================-
+22. Snorlax Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} / Meowth Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 12 Ability{dmg=4, stun=true, dodge=false, currentCd=5, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=4, cd=5}
+	b. Meowth HP 33 stunned, Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=1, cd=3}
+-===========================================-
+23. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth stunned -> Rezultat:
+	a. Snorlax HP 12 Ability{dmg=4, stun=true, dodge=false, currentCd=4, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=3, cd=5}
+	b. Meowth HP 33 Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+24. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=5, stun=false, dodge=true, currentCd=0, cd=4} -> Rezultat:
+	a. Snorlax HP 7 Ability{dmg=4, stun=true, dodge=false, currentCd=3, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=2, cd=5}
+	b. Meowth HP 33 (dodge), Ability{dmg=5, stun=false, dodge=true, currentCd=4, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+25. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 4 Ability{dmg=4, stun=true, dodge=false, currentCd=2, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=1, cd=5}
+	b. Meowth HP 33 Ability{dmg=5, stun=false, dodge=true, currentCd=3, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+26. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP 1 Ability{dmg=4, stun=true, dodge=false, currentCd=1, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Meowth HP 33 Ability{dmg=5, stun=false, dodge=true, currentCd=2, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+27. Snorlax Ability{dmg=8, stun=false, dodge=false, currentCd=0, cd=0} / Meowth Ability{dmg=11, stun=false, dodge=false, currentCd=0, cd=0} -> Rezultat:
+	a. Snorlax HP -2 Ability{dmg=4, stun=true, dodge=false, currentCd=0, cd=5} Ability{dmg=0, stun=false, dodge=true, currentCd=0, cd=5}
+	b. Meowth HP 33 Ability{dmg=5, stun=false, dodge=true, currentCd=1, cd=4} Ability{dmg=1, stun=false, dodge=true, currentCd=0, cd=3}
+-===========================================-
+Byron(Meowth) castiga Arena invingand pe celalalt antrenor. Meowth areacum + 1 la toate caracteristicile:
+HP 50, Attack 12, Special attack 0, Defense 13, Special Defense 11
+

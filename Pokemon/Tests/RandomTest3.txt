@@ -1,0 +1,8 @@
+Mario
+23
+Meowth,Psyduck,Bulbasaur
+Scut:Vesta;Pelerina:Scut;Sabiuta;Vitamine
+Sonic
+19
+Snorlax,Squirtle,Eevee
+0:Vitamine;Sabiuta;Pelerina:Vesta;Sabiuta

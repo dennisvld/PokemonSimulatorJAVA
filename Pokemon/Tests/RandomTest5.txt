@@ -1,0 +1,8 @@
+Bede
+19
+Pikachu,Squirtle,Eevee
+Vitamine:0:Brad de craciun;Bagheta magica;Sabiuta
+Bodo
+21
+Bulbasaur,Snorlax,Jigglypuff
+Scut;Vesta;Sabiuta:Bagheta Magica;Vitamine:Pelerina;Scut;Vesta

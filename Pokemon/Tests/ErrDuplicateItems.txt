@@ -1,0 +1,8 @@
+Serena
+19
+Psyduck,Eevee,Pikachu
+Vitamine;Vitamine:Vesta;Brad de craciun;Sabiuta:Bagheta magica;Pelerina:Scut
+Andreea
+19
+Bulbasaur,Jigglypuff,Vulpix
+Vesta;Scut;Sabiuta:Vitamine;Brad de craciun;Pelerina:Bagheta magica;Vesta;Scut

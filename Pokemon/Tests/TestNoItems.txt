@@ -1,0 +1,8 @@
+Iris
+16
+Psyduck,Eevee,Pikachu
+0:0:0
+Professor Oak
+41
+Bulbasaur,Jigglypuff,Vulpix
+0:0:0

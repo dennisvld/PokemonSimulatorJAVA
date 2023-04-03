@@ -1,0 +1,8 @@
+FC Twente
+18
+Psyduck,Eevee,Pikachu
+Vitamine;Pelerina;Scut:Vesta;Brad de craciun;Sabiuta:Bagheta magica;Pelerina;Scut
+AZ Alkmaar
+22
+Bulbasaur,Vulpix,Vulpix
+Vesta;Scut;Sabiuta:0:Bagheta magica;Vesta;Scut
